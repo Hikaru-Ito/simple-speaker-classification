@@ -6,35 +6,35 @@ It is a simple speaker recognition program with MFCC as feature quantity
 ## Quick Install
 
 
-```python
+```sh
 $ pip install -r reqirements.txt
 ```
 
 
 ## Generate speech audio data
 
-```python
+```sh
 $ python create_voice.py
 ```
 
 
 ## Generate features JSON
 
-```python
+```sh
 $ python create_features.py
 ```
 
 ## Testing Recognizer (Score calculation)
-```python
+```sh
 $ python recognizer.py
 ```
 
 ## Classification with original audio file
-```python
+```sh
 $ python recognizer.py my_say.wav
 ```
 
 ## Realtime Classfication(Use a microphone)
-```python
+```sh
 $ python realtime.py
 ```
